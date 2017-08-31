@@ -1,4 +1,4 @@
-### Release v0.9.5.
+### Release [v0.9.5](https://github.com/GenomicaMicrob/pair-end_cleaner/releases/latest)
 
 # pair-end_cleaner
 Script to unzip, clean, assemble, and convert illumina pair-end fastq files in all subdirectories for 16S amplicon data (V3, V4 and V3-V4 regions).
@@ -54,7 +54,7 @@ Go to a folder where you have all your raw fastq files and type:
 
 It will present the following options:
 
-    Script to unzip, clean, assemble, convert and rename Illumina pair-end fastq files (2X150) in all subdirectories.`
+    Script to unzip, clean, assemble, convert and rename Illumina pair-end fastq files in all subdirectories.`
       Select an 16S region:
         1 V3
         2 V4
