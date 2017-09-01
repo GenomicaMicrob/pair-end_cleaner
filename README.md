@@ -26,12 +26,10 @@ To assemble the pair-end sequences: [pear](https://sco.h-its.org/exelixis/web/so
 ## Download and install
 The best way to get pair-end_cleaner is to clone this repository directly to your linux:
 
-1. Open a terminal and go to your prefered folder.
-2. Type git clone `https://github.com/GenomicaMicrob/pair-end_cleaner.git`, this will automatically download the script to a new folder called pair-end_cleaner.
-3. Change to the new folder: `cd pair-end_cleaner`.
-4. Make the install script executable: `chmod +x pair-end_cleaner.sh`.
-5. Copy pair-end_cleaner.sh to an appropiate directory in your linux system, `/usr/bin/` is a good choice to have it available for everyone: `sudo cp pair-end_cleaner.sh /usr/bin/`.
-6. Log out and log in in order that execute it.
+1. Download the latest [release](https://github.com/GenomicaMicrob/pair-end_cleaner/releases/latest).
+2. Make the script executable: `chmod +x pair-end_cleaner.v0.9.5.sh`.
+3. Copy pair-end_cleaner.sh to an appropiate directory in your linux system, `/usr/bin/` is a good choice to have it available for everyone: `sudo cp pair-end_cleaner.sh /usr/bin/`.
+4. Log out and log in in order that execute it.
 
 ## Format of the sequence files
 Usually, the Illumina sequencers produce the resulting files in the following format:
@@ -62,3 +60,5 @@ It will present the following options:
         x exit
         
 Just select a number for the region you have sequenced, or x to exit.
+
+The script will run and process each sample, since it might take sometime to complete, you can close the terminal (connection) and the script will continue; if you want to stop the process completly, just type `Ctrl z`.
