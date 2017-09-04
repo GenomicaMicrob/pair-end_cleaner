@@ -1,4 +1,4 @@
-### Release [v0.9.6](https://github.com/GenomicaMicrob/pair-end_cleaner/releases/latest)
+### Release [v0.9.7](https://github.com/GenomicaMicrob/pair-end_cleaner/releases/latest)
 
 # pair-end_cleaner
 Script to unzip, clean, assemble, and convert illumina pair-end fastq files in all subdirectories for 16S amplicon data (V3, V4 and V3-V4 regions).
@@ -27,7 +27,7 @@ To assemble the pair-end sequences: [pear](https://sco.h-its.org/exelixis/web/so
 The best way to get pair-end_cleaner is to clone this repository directly to your linux:
 
 1. Download the latest [release](https://github.com/GenomicaMicrob/pair-end_cleaner/releases/latest).
-2. Make the script executable: `chmod +x pair-end_cleaner.v0.9.6.sh`.
+2. Make the script executable: `chmod +x pair-end_cleaner.v0.9.7.sh`.
 3. Copy pair-end_cleaner.sh to an appropiate directory in your linux system, `/usr/bin/` is a good choice to have it available for everyone: `sudo cp pair-end_cleaner.sh /usr/bin/`.
 4. Log out and log in in order that execute it.
 
