@@ -1,4 +1,4 @@
-### Release [v0.9.7](https://github.com/GenomicaMicrob/pair-end_cleaner/releases/latest)
+### Release [v0.9.82](https://github.com/GenomicaMicrob/pair-end_cleaner/releases/latest)
 
 # pair-end_cleaner
 Script to unzip, clean, assemble, and convert illumina pair-end fastq files in all subdirectories for 16S (V3, V4 and V3-V4 regions) and 18S (V9 region) amplicon data .
