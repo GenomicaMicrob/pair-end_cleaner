@@ -1,9 +1,19 @@
-### Release [v0.9.82](https://github.com/GenomicaMicrob/pair-end_cleaner/releases/latest)
+### Release [v0.9.9](https://github.com/GenomicaMicrob/pair-end_cleaner/releases/latest)
 
 # pair-end_cleaner
 Script to unzip, clean, assemble, and convert illumina pair-end fastq files in all subdirectories for 16S (V3, V4 and V3-V4 regions) and 18S (V9 region) amplicon data .
 
-This script is intended to rapidly process many fastq files without any extra commands and produce fasta files ready for downstream analyses, such as chimera filtering and taxon classification. It is already fine-tuned for this kind of files and 16S/18S regions, and no extra commands should be necessary. 
+This script is intended to rapidly process many fastq files without any extra commands and produce fasta files ready for downstream analyses, such as chimera filtering and taxon classification. It is already fine-tuned for this kind of files and 16S/18S regions, and no extra commands should be necessary.
+
+Estimated region sizes (nucleotides) including primer sequences:
+
+| Region | Size |
+| --- | --- |
+| 16S_V3 | 200 |
+| 16S_V4 | 292 |
+| 16S_V3-V4 | 474 |
+| 18S_V9 | 173 |
+   
 
 We have tested it extensively with files resulting of sequencing the V3 or V4 regions of the 16S with the Miniseq (2X150), all other regions should be OK too. 
 
@@ -48,7 +58,7 @@ All this information is used by the script to process the files, so please do no
 ## Usage
 Go to the directory where you have all your subdirectories with the raw fastq files and type:
 
-`pair-end_cleaner.sh`
+`pair-end_cleaner.v0.9.9.sh`
 
 It will present the following options:
 
@@ -64,8 +74,12 @@ It will present the following options:
          4 V9
          x exit
         
-Just select a number for the region you have sequenced, or x to exit.
+Just type the number for the region you have sequenced, or x to exit.
 
-For help, type `pair-end_cleaner.sh -h`
+For help, type `pair-end_cleaner.v0.9.9.sh -h`
 
-The script will run and process each sample, since it might take sometime to complete, you can close the terminal (connection) and the script will continue; if you want to stop the process completly, just type `Ctrl z`.
+For version and dependencies, `pair-end_cleaner.v0.9.9.sh -v`
+
+For configuration details, `pair-end_cleaner.v0.9.9.sh -c`
+
+The script will run and process each sample, since it might take sometime to complete, you can close the terminal (connection) and the script will continue; if you want to stop the process completly, type `Ctrl z`.
