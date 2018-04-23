@@ -80,6 +80,16 @@ For help, type `pair-end_cleaner.v0.9.9.sh -h`
 
 For version and dependencies, `pair-end_cleaner.v0.9.9.sh -v`
 
+## Configuration
+
 For configuration details, `pair-end_cleaner.v0.9.9.sh -c`
 
-The script will run and process each sample, since it might take sometime to complete, you can close the terminal (connection) and the script will continue; if you want to stop the process completly, type `Ctrl z`.
+To change the main configuration parameters (CPUs and Quality score) edit the script's code. Just change the values after the equal sign ( = ) in the 'configuration' section at the top of the script.
+
+*Example*
+
+**CPUS=4**
+>Number of cores to be used. This parameter only affects PEAR.
+
+**Q=20**
+>phred quality score to be used (one probable error per x bases), this parameters is for cutadapt.
