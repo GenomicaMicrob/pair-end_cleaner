@@ -55,6 +55,8 @@ Sample results are nested in the main directory and in their corresponding subdi
 
 All this information is used by the script to process the files, so please do not change any of this, use it as they are downloaded from the sequencer, or from BASESPACE.
 
+**IMPORTANT.** Make sure you have only subdirectories with fastq sequences in the directory where you want to execute this script; it will try to process any other subdirectory and since it will not find any fastq or fastq.gz files in it, it will produce an error. This error is not critical and the script should process all valid subdirectories without problems.
+
 ## Usage
 Go to the directory where you have all your subdirectories with the raw fastq files and type:
 
