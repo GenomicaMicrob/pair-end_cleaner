@@ -1,4 +1,4 @@
-### Release [v1.0.1](https://github.com/GenomicaMicrob/pair-end_cleaner/releases/latest)
+### Release [v1.0.2](https://github.com/GenomicaMicrob/pair-end_cleaner/releases/latest)
 
 # pair-end_cleaner
 Script to unzip, clean, assemble, and convert illumina pair-end fastq files in all subdirectories for 16S (V3, V4 and V3-V4 regions) and 18S (V9 region) amplicon data .
@@ -37,8 +37,8 @@ To assemble the pair-end sequences: [pear](https://sco.h-its.org/exelixis/web/so
 The best way to get pair-end_cleaner is to clone this repository directly to your linux:
 
 1. Download the latest [release](https://github.com/GenomicaMicrob/pair-end_cleaner/releases/latest).
-2. Make the script executable: `chmod +x pair-end_cleaner.v1.0.1.sh`.
-3. Copy pair-end_cleaner.sh to an appropiate directory in your linux system, `/usr/bin/` is a good choice to have it available for everyone: `sudo cp pair-end_cleaner.v1.0.1sh /usr/bin/`.
+2. Make the script executable: `chmod +x pair-end_cleaner.v1.0.2.sh`.
+3. Copy pair-end_cleaner.sh to an appropiate directory in your linux system, `/usr/bin/` is a good choice to have it available for everyone: `sudo cp pair-end_cleaner.v1.0.2sh /usr/bin/`.
 4. Log out and log in in order that execute it.
 
 ## Format of the sequence files
@@ -60,7 +60,7 @@ All this information is used by the script to process the files, so please do no
 ## Usage
 Go to the directory where you have all your subdirectories with the raw fastq files and type:
 
-`pair-end_cleaner.v1.0.1.sh`
+`pair-end_cleaner.v1.0.2.sh`
 
 It will present the following options:
 
@@ -78,13 +78,13 @@ It will present the following options:
         
 Just type the number for the region you have sequenced, or x to exit.
 
-For help, type `pair-end_cleaner.v1.0.1.sh -h`
+For help, type `pair-end_cleaner.v1.0.2.sh -h`
 
-For version and dependencies, `pair-end_cleaner.v1.0.1.sh -v`
+For version and dependencies, `pair-end_cleaner.v1.0.2.sh -v`
 
 ## Configuration
 
-For configuration details, `pair-end_cleaner.v1.0.1.sh -c`
+For configuration details, `pair-end_cleaner.v1.0.2.sh -c`
 
 To change the main configuration parameters (CPUs and Quality score) edit the script's code. Just change the values after the equal sign ( = ) in the 'configuration' section at the top of the script.
 
